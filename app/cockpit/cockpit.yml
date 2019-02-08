@@ -1,0 +1,46 @@
+
+style:
+  type: list
+  description: "Choose style"
+  values: ["Red", "Blue"]
+  group: "Theme"
+
+animationSpeed:
+  description: "Animation speed"
+  value: 500
+  group: "Checkout Button"
+
+totalPriceFontSize:
+  type: range
+  description: "Total price font size"
+  min: 20
+  max: 60
+  step: 1
+  value: 36
+  group: "Cart"
+
+resetCount:
+  type: action
+  description: "Set item count to default"
+  buttonText: "Reset"
+  group: "Cart"
+
+headingText:
+  description: "Heading text"
+  value: "Shopping cart"
+  group: "Heading"
+
+footerFontColor:
+  type: color
+  description: "Font color"
+  value: "#FFFFFF"
+  group: "Footer"
+
+showFooter:
+  description: "Show footer"
+  value: true
+  group: "Footer"
+
+appVersion:
+  type: read_only
+  description: "Version"

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+<item
+        android:id="@+id/nintendo"
+        android:icon="@drawable/ic_nintendo_switch"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="Nintendo"/>
+    <item
+        android:id="@+id/playStation"
+        android:icon="@drawable/ic_playstation"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="PlayStation"/>
+    <item
+        android:id="@+id/xBox"
+        android:icon="@drawable/ic_xbox"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="XBOX"/>
+</menu>
